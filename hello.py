@@ -1,1 +1,1 @@
-def greet(name):\n    print("Hello,", name)\nname = input("Enter your name: ")\ngreet(name)
+if name:\n    greet(name)\nelse:\n    print("No name entered.")
