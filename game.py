@@ -6,3 +6,4 @@ while player_guess != number_to_guess:\n    player_guess = int(input("Try again:
 attempts = 1\nwhile player_guess != number_to_guess:\n    player_guess = int(input("Try again: "))\n    attempts += 1
 print(f"Congratulations! You guessed it in {attempts} attempts.")
 play_again = input("Do you want to play again? (yes/no): ").lower()
+def play_game():\n    number_to_guess = random.randint(1, 10)\n    player_guess = int(input("Guess a number between 1 and 10: "))\n    attempts = 1\n    while player_guess != number_to_guess:\n        player_guess = int(input("Try again: "))\n        attempts += 1
