@@ -1,3 +1,1 @@
-if name:\n    greet(name)\nelse:\n    print("No name entered.")
-def goodbye(name):\n    print("Goodbye,", name)
-goodbye(name)
+def main():\n    name = input("Enter your name: ")\n    greet(name)\n    goodbye(name)\n\nif __name__ == "__main__":\n    main()
