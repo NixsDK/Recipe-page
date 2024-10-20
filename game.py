@@ -3,3 +3,4 @@ number_to_guess = random.randint(1, 10)
 player_guess = int(input("Guess a number between 1 and 10: "))
 if player_guess < number_to_guess:\n    print("Too low!")\nelif player_guess > number_to_guess:\n    print("Too high!")\nelse:\n    print("Congratulations! You guessed it!")
 while player_guess != number_to_guess:\n    player_guess = int(input("Try again: "))\n    if player_guess < number_to_guess:\n        print("Too low!")\n    elif player_guess > number_to_guess:\n        print("Too high!")
+attempts = 1\nwhile player_guess != number_to_guess:\n    player_guess = int(input("Try again: "))\n    attempts += 1
