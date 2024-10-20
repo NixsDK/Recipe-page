@@ -1,2 +1,1 @@
-def greet():\n    print("Hello, Software Development Principles!")
-greet()
+name = input("Enter your name: ")\nprint("Hello,", name)
