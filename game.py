@@ -9,3 +9,4 @@ play_again = input("Do you want to play again? (yes/no): ").lower()
 def play_game():\n    number_to_guess = random.randint(1, 10)\n    player_guess = int(input("Guess a number between 1 and 10: "))\n    attempts = 1\n    while player_guess != number_to_guess:\n        player_guess = int(input("Try again: "))\n        attempts += 1
     print(f"Congratulations! You guessed it in {attempts} attempts.")\n\nif __name__ == "__main__":\n    play_game()
 while play_again == "yes":\n        play_game()\n        play_again = input("Do you want to play again? (yes/no): ").lower()
+while True:\n    try:\n        player_guess = int(input("Guess a number between 1 and 10: "))\n        if 1 <= player_guess <= 10:\n            break\n        else:\n            print("Please guess a number within the range.")\n    except ValueError:\n        print("Please enter a valid number.")
