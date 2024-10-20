@@ -1,1 +1,1 @@
-print("Hello, Software Development!")
+print("Hello, Software Development Principles!")
