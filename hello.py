@@ -1,1 +1,1 @@
-print("Hello, Software Development Principles!")
+def greet():\n    print("Hello, Software Development Principles!")
