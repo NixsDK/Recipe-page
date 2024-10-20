@@ -5,3 +5,4 @@ if player_guess < number_to_guess:\n    print("Too low!")\nelif player_guess > n
 while player_guess != number_to_guess:\n    player_guess = int(input("Try again: "))\n    if player_guess < number_to_guess:\n        print("Too low!")\n    elif player_guess > number_to_guess:\n        print("Too high!")
 attempts = 1\nwhile player_guess != number_to_guess:\n    player_guess = int(input("Try again: "))\n    attempts += 1
 print(f"Congratulations! You guessed it in {attempts} attempts.")
+play_again = input("Do you want to play again? (yes/no): ").lower()
