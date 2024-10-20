@@ -11,3 +11,4 @@ def play_game():\n    number_to_guess = random.randint(1, 10)\n    player_guess 
 while play_again == "yes":\n        play_game()\n        play_again = input("Do you want to play again? (yes/no): ").lower()
 while True:\n    try:\n        player_guess = int(input("Guess a number between 1 and 10: "))\n        if 1 <= player_guess <= 10:\n            break\n        else:\n            print("Please guess a number within the range.")\n    except ValueError:\n        print("Please enter a valid number.")
 while True:\n    play_again = input("Do you want to play again? (yes/no): ").lower()\n    if play_again in ("yes", "no"):\n        break\n    else:\n        print("Please enter yes or no.")
+# Simple Number Guessing Game\nimport random\n\n# Function to play the guessing game\n
