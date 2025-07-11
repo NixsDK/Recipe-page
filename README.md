@@ -28,6 +28,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ![Nutrition section](assets/images/Screenshot%202025-07-11%20162959.png)  
 ![Mobile view](assets/images/Screenshot%202025-07-11%20163016.png)
 
+- Solution URL: [Add solution URL here]([https://your-solution-url.com](https://github.com/NixsDK/Recipe-page))
+- Live Site URL: [Add live site URL here]([https://your-live-site-url.com](https://nixsdk.github.io/Recipe-page/))
 ## My process
 
 ### Built with
@@ -96,7 +98,7 @@ when to use <section>, <main>, and <article>. I also plan to practice using Goog
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/NixsDK)
+- Frontend Mentor - [@NixsDK](https://www.frontendmentor.io/profile/NixsDK)
 
 
 
