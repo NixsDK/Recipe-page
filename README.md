@@ -28,11 +28,6 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ![Nutrition section](assets/images/Screenshot%202025-07-11%20162959.png)  
 ![Mobile view](assets/images/Screenshot%202025-07-11%20163016.png)
 
-### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
 ## My process
 
 ### Built with
