@@ -22,11 +22,11 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Screenshot
 
-![](./Screenshot 2025-07-11 162710.png)
-![](./Screenshot 2025-07-11 162852.png)
-![](./Screenshot 2025-07-11 162943.png)
-![](./Screenshot 2025-07-11 162959.png)
-![](./Screenshot 2025-07-11 163016.png)
+![Desktop layout](Screenshot%202025-07-11%20162710.png)  
+![Ingredients section](Screenshot%202025-07-11%20162852.png)  
+![Instructions section](Screenshot%202025-07-11%20162943.png)  
+![Nutrition section](Screenshot%202025-07-11%20162959.png)  
+![Mobile view](Screenshot%202025-07-11%20163016.png)
 
 ### Links
 
