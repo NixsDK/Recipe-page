@@ -1,0 +1,104 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+body {
+    font-family: "Libertinus Mono", monospace;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom:  1rem;
+}
+.label {
+    width: 100px;
+}
+
+.value {
+    text-align: right;
+    flex: 1;
+}
+body {
+    background-color: hsl(30, 54%, 90%);
+    color: hsl(24, 5%, 18%);
+}
+.container {
+    background-color: white;
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+h1, h2 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+ul, ol {
+    padding-left: 1.5rem;
+}
+.prep-time {
+    background-color: hsl(330, 100%, 98%);
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+}
+
+.prep-time h2 {
+    color: hsl(14, 45%, 36%);
+}
+.ingredients h2 {
+    color: hsl(14, 45%, 36%);
+}
+.instructions h2 {
+    color: hsl(14, 45%, 36%);
+}
+.Nutrition h2 {
+    color: hsl(14, 45%, 36%);
+}
+.value {
+    text-align: left;
+    flex: 1;
+    font-weight: 600;
+    color: hsl(332, 51%, 32%);
+}
+
+img {
+    width: 100%;
+    border-radius: 1rem;
+    margin-bottom: 1.5rem;
+}
+@media (max-width: 500px) {
+    body {
+        font-size: 0.95rem;
+        padding: 1rem;
+    }
+
+    .container {
+        padding: 1.5rem 1rem;
+    }
+
+    h1 {
+        font-size: 1.75rem;
+    }
+
+    .row {
+        flex-direction: flex;
+        align-items: flex-start;
+        gap: 0.1rem;
+        margin-bottom: 1.25rem;
+    }
+
+    .label {
+        font-weight: normal;
+        color: hsl(24, 5%, 18%);
+    }
+
+    .value {
+        font-weight: 600;
+        color: hsl(332, 51%, 32%);
+    }
+}
